@@ -1,0 +1,7 @@
+ 
+
+
+<ng-container *ngFor="let s of [1,2,3,4,5]" >
+  <button (click)="onrate(s)" (mouseover)="onHover(s)"  (mouseout)="selected=-1"  ><i class="fa fa-star"  [class.fa-star-half-alt]="s==rateNumber"  [class.active]="selected>=s"   ></i></button>
+</ng-container>
+{{selected}}

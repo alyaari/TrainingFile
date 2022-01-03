@@ -1,0 +1,45 @@
+
+
+<!-- id <input type="number" [(ngModel)]="person.id" ><br>
+name <input type="text" [(ngModel)]="person.name" > -->
+
+<button routerLink="create">add</button>
+
+<table class="table">
+    <tr  >
+        <td>no</td>
+        <td>
+            id 
+        </td>
+        <td>
+            name  
+        </td>
+        <td>
+            rating  
+        </td>
+        <td>
+            action
+        </td>
+    </tr> 
+   <tr *ngFor="let item of data;let i=index">
+       <td>{{i+1}}</td>
+    <td>
+        {{item.id}}
+    </td>
+    <td>
+      {{item.name | uppercase}}
+    </td>
+    <td>
+        {{item.rate}}
+        <star [rateNumber]="item.rate" (onRating)="onRatingChange($event,item)"></star>
+    </td>
+    <td>
+    
+        <a  [routerLink]="['person',item.id]" class="btn btn-info"  >edit</a>
+        <a  (click)="navigateTo(item)" class="btn btn-info"  >select</a>
+    </td>
+</tr> 
+</table>
+
+sum of rating : {{data|sum:'rate'}}   sum price {{products|sum:'price' }}
+<app-details-person *ngIf="selected.id>0" [person]="selected"></app-details-person>

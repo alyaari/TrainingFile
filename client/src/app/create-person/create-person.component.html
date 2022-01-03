@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <form [formGroup]="myForm" autocomplete="off" novalidate (ngSubmit)="create()">
+    <div class="form-horizontal card card-body bg-light mb-2 mt-2">
+ 
+      <div class="form-group row">
+        <label for="name" class="control-label col-md-2">Name of the person: </label>
+        <div class="col-md-5">
+          <input type="text" formControlName="name" id="name"  class="form-control" />
+        </div>
+        <div class="col-md-5">
+          <em *ngIf="validateControl('name') && hasError('name', 'required')">Name is required</em>
+          <em *ngIf="validateControl('name') && hasError('name', 'maxlength')">Maximum allowed length is 60 characters.</em>
+        </div>
+      </div>
+ 
+      <div class="form-group row">
+        <label for="id" class="control-label col-md-2">id: </label>
+        <div class="col-md-5">
+          <input type="number" #id formControlName="id" id="id" class="form-control" />
+        </div>
+        <div class="col-md-5">
+          <em *ngIf=" id.valid ">id is required</em>
+        </div>
+      </div>
+ 
+       
+ 
+      <br><br>
+      <div class="form-group row">
+        <label for="rate" class="control-label col-md-2">rate: </label>
+        <div class="col-md-5">
+          <input type="number" #rate formControlName="rate" id="rate" class="form-control"  
+                />
+        </div>
+        <div class="col-md-5">
+          <em *ngIf="validateControl('rate') &&  hasError('rate','required')">rate is required</em>
+          <em *ngIf="validateControl('rate') && hasError('rate','max')">Maximum allowed   is 5 .</em>
+        </div>
+      </div>
+      <div class="form-group row">
+          <div class="offset-5 col-md-1">
+              <button type="submit" class="btn btn-info"  >Save</button>
+          </div>
+          <div class="col-md-1">
+              <button type="button" class="btn btn-danger" (click)="reset()">reset</button>
+          </div>
+      </div>
+      
+    </div>
+  </form>
+ 
+  
+ 
+</div>
