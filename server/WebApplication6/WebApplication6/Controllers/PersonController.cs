@@ -79,7 +79,7 @@ namespace WebApplication6.Controllers
         public async Task<ActionResult<Person>> PostPerson(Person person)
         {
             _context.Persons.Add(person);
-            throw new Exception("الرقم اكبر من ");
+            // throw new Exception("الرقم اكبر من ");
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetPerson", new { id = person.Id }, person);
