@@ -7660,11 +7660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
       "projectName": "WebApplication6",
-      "projectPath": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7742,7 +7742,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.15, 5.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -7753,7 +7753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

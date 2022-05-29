@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s6e4H5vStnsgndh6GXeZsqC65nokRSez//7Uw0PrKp+Y6wca/BEmxbeUI5m7JFtGVB5jpUcimOiwzA+pRwjzUA==",
+  "dgSpecHash": "lIA+RXyAe1hYmC4P+faR5TurtNjplcJBmOF397o+m5tHOur2BB6ZGPUhtRBBUR3pAC4VQZfYu55ficWU+BWzQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -143,7 +143,7 @@
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
   "logs": []
 }
