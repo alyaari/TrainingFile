@@ -7660,11 +7660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
       "projectName": "WebApplication6",
-      "projectPath": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\WebApplication6.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\angular\\toh-pt0\\server\\WebApplication6\\WebApplication6\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\TrainingFile\\server\\WebApplication6\\WebApplication6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
